@@ -65,7 +65,7 @@ async def consulta(request: Request, opcion: int):
         get_director(v_nom_dire)
         return {"message": "Consulta realizada director"}
     elif opcion == 7:
-        gustos = input("Ingrese el nombre de un director (Ejemplo: 'Tom Hanks', 'Frank Capra'): ")
+        gustos = input("Ingrese su gusto en pelis o nombre de peli: ")
         recomendacion(gustos)
         return {"message": "Consulta realizada recomendación"}
     elif opcion == 8:
