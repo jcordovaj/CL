@@ -2,8 +2,8 @@ from fastapi import FastAPI
 
 app = FastAPI()
 
-@app.get('/cantidad_filmaciones_mes/{mes}')
-def cantidad_filmaciones_mes(mes: str):
+@app.get('/cantidad_filmaciones_mes/{v_mes}')
+def cantidad_filmaciones_mes(v_mes: str):
     """
     Versión para dataframe.
     
