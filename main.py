@@ -8,9 +8,8 @@ app = FastAPI()
 templates = Jinja2Templates(directory="templates")
 
 # Cargar los datos desde 'xlsx'
-df_work = pd.read_excel('cleandata/dfwork.xlsx', sheet_name='Sheet1')
-
-############################### F U N C I O N E S ###########
+df_work = pd.read_excel('dfwork.xlsx', sheet_name='Sheet1')
+############ F U N C I O N E S ###########
 def cantidad_filmaciones_mes(v_Mes):
     return 'test pelis mes'
 
