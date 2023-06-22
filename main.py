@@ -1,6 +1,31 @@
+# Cargar librerías necesarias
+# ***************************
+import pandas as pd
+import webbrowser
+from tabulate import tabulate
+import os
+import datetime
+import platform
+import tkinter as tk
+from tkinter import messagebox
+from tkinter import filedialog
+from fastapi import FastAPI
+from datetime import datetime
 from fastapi import FastAPI
 
+
+# Instanciar FastAPI
+#*******************
 app = FastAPI()
+
+# Cargar los datos desde 'xlsx'
+# *****************************
+df_work = pd.read_excel('\\cleandata\\dfwork.xlsx', sheet_name='Sheet1')
+
+#
+################### F U N C I O N E S ######################
+#
+#
 
 @app.get('/cantidad_filmaciones_mes/{v_mes}')
 def cantidad_filmaciones_mes(v_mes: str):
