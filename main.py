@@ -20,7 +20,7 @@ app = FastAPI()
 
 # Cargar los datos desde 'xlsx'
 # *****************************
-df_work = pd.read_excel('\\cleandata\\dfwork.xlsx', sheet_name='Sheet1')
+df_work = pd.read_excel('\\dfwork.xlsx', sheet_name='Sheet1')
 
 #
 ################### F U N C I O N E S ######################
