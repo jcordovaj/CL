@@ -7,8 +7,9 @@ def cantidad_filmaciones_mes(mes: str):
     '''Se ingresa el mes y la función retorna la cantidad de películas que se estrenaron
        ese mes históricamente'''
     # respuesta = # Lógica para obtener la cantidad de películas por mes
-    return {'mes': mes, 'cantidad': respuesta}
-
+    #return {'mes': mes, 'cantidad': respuesta}
+    return print('prueba films x mes')
+    
 @app.get('/cantidad_filmaciones_dia/{dia}')
 def cantidad_filmaciones_dia(dia: str):
     '''Se ingresa el día y la función retorna la cantidad de películas que se estrenaron ese día históricamente'''
@@ -51,6 +52,6 @@ def get_director(nombre_director: str):
 @app.get('/recomendacion/{titulo}')
 def recomendacion(titulo: str):
     '''Ingresas un nombre de película y te recomienda las similares en una lista'''
-    respuesta = # Lógica para obtener la lista de recomendaciones
+    #respuesta = # Lógica para obtener la lista de recomendaciones
     #return {'lista_recomendada': respuesta}
     return print('test recomenda')
