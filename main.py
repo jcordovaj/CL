@@ -4,11 +4,59 @@ app = FastAPI()
 
 @app.get('/cantidad_filmaciones_mes/{mes}')
 def cantidad_filmaciones_mes(mes: str):
-    '''Se ingresa el mes y la función retorna la cantidad de películas que se estrenaron
-       ese mes históricamente'''
+    """
+    Versión para dataframe.
+    
+    Recibe: una cadena de texto con el nombre del mes
+    en idioma español.
+    
+    No valida el idioma, sólo que pertenezca al 
+    diccionario.
+    
+    Si la cadena es inválida, solicitará
+    otra cadena válida.
+    
+    Retorna: La cantidad de películas estrenadas en el mes 'X'
+    """
+    
+    # Crear diccionario con los nombres de los meses y su valor numérico
+    # Mapea la cadena ingresada y si pertenece, la convierte a su valor numérico
+    dic_map_meses = {
+        'enero'     : 1,
+        'febrero'   : 2,
+        'marzo'     : 3,
+        'abril'     : 4,
+        'mayo'      : 5,
+        'junio'     : 6,
+        'julio'     : 7,
+        'agosto'    : 8,
+        'septiembre': 9,
+        'octubre'   : 10,
+        'noviembre' : 11,
+        'diciembre' : 12
+    }
+
+    # Para controlar las cadenas ingresadas, primero se convierten a minúsculas
+    # luego, se obtiene su valor numérico
+    v_Mes    = v_Mes.lower()
+    v_numMes = dic_map_meses.get(v_Mes)
+
+    # Valida el ingreso de cadenas inválidas 
+    if v_numMes is None:                               
+        raise ValueError('Mes ingresado es inválido.')
+
+    # Realizar la consulta en el DataFrame
+    query       = df_work['release_month'] == v_numMes
+    v_num_pelis = len(df_work[query])
+
+    # Imprime el resultado de la consulta
+    return print(f"La cantidad de películas estrenadas en el mes de {v_Mes} es: {v_num_pelis}")
+        
+    #'''Se ingresa el mes y la función retorna la cantidad de películas que se estrenaron
+    #   ese mes históricamente'''
     # respuesta = # Lógica para obtener la cantidad de películas por mes
     #return {'mes': mes, 'cantidad': respuesta}
-    return print('prueba films x mes')
+    #return print('prueba films x mes')
     
 @app.get('/cantidad_filmaciones_dia/{dia}')
 def cantidad_filmaciones_dia(dia: str):
