@@ -1,3 +1,17 @@
+# -*- coding: utf-8 -*-
+
+#__autor__='Jota'
+
+###############  CUERPO PRINCIPAL APLICACIÓN CONSULTAS A DATAFRAME CINÉFILOS  #################
+# PROYECTO INDIVIDUAL - 01
+# 
+# Prefijos utilizados para identificar objetos creados
+# ***************************************************************************** 
+# df_  : El objeto es un dataframe
+# dic_ : El objeto es un diccionario
+# lst_ : El objeto es una lista
+# v_   : El objeto es una variable
+#
 # Cargar librerías necesarias
 # ***************************
 import pandas as pd
@@ -11,17 +25,20 @@ from tkinter import messagebox
 from tkinter import filedialog
 from fastapi import FastAPI
 from datetime import datetime
-from fastapi import FastAPI
-
 
 # Instanciar FastAPI
-#*******************
+#******************************
 app = FastAPI()
 
 # Cargar los datos desde 'xlsx'
 # *****************************
 df_work = pd.read_excel('dfwork.xlsx', sheet_name='Sheet1')
-
+#
+# Rutas de FastAPI
+# *****************************
+@app.get("/")
+def read_root():
+    return {"Hello": "World"}
 #
 ################### F U N C I O N E S ######################
 #
