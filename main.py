@@ -25,7 +25,6 @@ df_work = pd.read_excel('dfwork.xlsx', sheet_name='Sheet1')
 #
 ################### F U N C I O N E S ######################
 #
-#
 
 @app.get('/cantidad_filmaciones_mes/{v_mes}')
 def cantidad_filmaciones_mes(v_mes: str):
