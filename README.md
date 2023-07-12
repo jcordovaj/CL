@@ -42,31 +42,51 @@
 - Las economías han entendido que esta es una carrera en la que no se puede ceder espacio a los avances y, quedarse atrás, no es una opción.
 - Argentina, pese a tener uno de los niveles más altos de penetración de internet en la región, también presenta agudos contrastes debido a varios factores que es necesario entender, tales como: geografía, densidad poblacional, infraestructura, riesgo social, político y otras externalidades, que requieren de un análisis de sus estadísticas con un enfoque estratégico, que sirva tanto, para los actuales competidores, como para potenciales entrantes.
 - En este Lab, se procederá a análizar información histórica de la industria TELCO en Argentina, bajo el supuesto de servir a un tercero como herramienta para la toma de decisiones e información a través de un tablero (dashboard).
-Este ***dashboard*** ayudará al lector a comprender las características del mercado acceso de internet fijo, en función de su localización, tipo de tecnología, ancho de banda, y tendencia de crecimiento del mercado, además de relacionar otros ***insights*** como políticas públicas y otras variables que determinan la demanda por el servicio en el largo plazo.
+Este ***dashboard*** ayudará al lector a comprender las características del mercado de "Acceso a Internet Fijo", en función de su localización, tipo de tecnología, ancho de banda, y tendencia de crecimiento del mercado, además de relacionar otros ***insights*** como políticas públicas y otras variables que determinan la demanda por el servicio en el largo plazo.
 - ***Disclaimer:*** Las recomendaciones de este análisis, aunque se basan en datos reales, deben ser considerados como **'un ejercicio académico'**, y es responsabilidad del usuario verificar y validar el contenido del mismo para otros fines.
 
 
-# `<font color=blue>`2. Problem Statement: `</font>`
+### 2. Resumen del Problema:
 
-#### `<u>`Team Role :`</u>`
+- Para ayudar al cliente, en su necesidad por conocer el comportamiento de este sector a nivel nacional. Se ha tomado en cuenta, aplicando una aproximación 'top-dow', el caracterizar primero, el mercado en general, incluyendo el acceso a internet desde dispositivos móviles, para luego enfocar el análisis y conclusiones al mercado de acceso a internet a través de redes fijas.
+- Se buscará establecer relaciones significativas para fundamentar, con la información disponible, recomedaciones que permitan lograr, por ejemplo: una buena calidad de los servicios, identificar oportunidades de crecimiento, o cómo personalizar soluciones para sus posibles clientes.
+- Se pondrá especial énfasis en analizar las fuentes de datos, para determinar qué objetivos de información son factibles, y cuáles podrían ser alcanzados con algún nivel, razonable, de esfuerzo adicional.
+- Se requiere realizar un EDA bien documentado y coherente con las conclusiones, toda vez que, este artefacto constituye, generalmente, un entregable en sí mismo.
+- Los esfuerzos se centrarán en ayudar a una empresa o cliente, a adquirir una visión comprehensiva de la industria, desarrollar algunas opciones estratégicas, y sugerir información procesable que apoye decisiones de inversión, marketing y/o productos.
 
-- To help the customer the consultants are expected to have depth of clarity in the underlying data.
-- How much effort has been put into cleansing and purifying the data will decide how closely have you looked at the data..
-- How detailed is the observation stated in the submission report and finally, how well a group presents their consulting journey.
-- Please remember that this is an analytics consulting firm. Hence, your efforts in terms of finding user behaviour are going to directly impact the company's offerings.
-- Do help the company understand what is the right way forward and suggest actionable insights from marketing and product terms.
+### 3. Aproximación metodológica
 
-`<a name = Section9></a>`
+Hay académicos y literatura que sostiene que, el 'EDA', es un proceso contínuo, no tiene fin, y un resultado, siempre será el inicio de un nuevo análisis, mientras las variables o las necesidades de información cambien, lo que obliga a aplicar meodologías o prácticas que permitan asegurar un resultado confiable.
 
----
+El Análisis Exploratorio de Datos (EDA, por sus siglas en inglés), es una etapa esencial en el proceso de entender los datos y prepararlos para poder trabajar con ellos. Consiste en explorar y comprender los datos antes de aplicar cualquier modelo o técnica de análisis más avanzada.
 
-# `<font color=blue>`9. Summarization `</font>`
+La aproximación metodológica del EDA se puede describir en los siguientes pasos:
 
----
+- Recopilación de datos: Se obtendran los datos necesarios para el análisis, sea de fuentes externas o internas. Los datos pueden estar en diferentes formatos, como archivos CSV, bases de datos, hojas de cálculo, etc. En este caso, se descargarán los sets de datos que mantiene ENACOM, ente regulador de la actividad de la Industria en Argentina.
 
-`<a name = Section91></a>`
+- Limpieza de datos: Se realizará una limpieza inicial de los datos para detectar y corregir problemas como: valores faltantes, duplicados, valores atípicos o inconsistentes. También se procederá, cuando corresponda, a realizar transformaciones de datos, que pueden incluir, la normalización y/o codificación de variables.
 
-### 9.1 `<u>`Conclusion `</u>`
+- Exploración univariable: Tedioso, pero necesario,se analizará cada variable individualmente para comprender su distribución, estadísticas descriptivas y características específicas. Esto puede incluir histogramas, gráficos de barras, resúmenes estadísticos y otros métodos visuales o numéricos.
+
+- Exploración bivariable: Es el esfuerzo inicial por hallar relaciones entre variables. Se analiza la relación entre pares de variables para identificar patrones, correlaciones o dependencias. Esto puede incluir gráficos de dispersión, tablas de contingencia, matrices de correlación y pruebas estadísticas.
+
+- Exploración multivariable: Dependiendo del objetivo del estudio y, si los datos son homogéneos y consistentes, se puede intentar realizar algún tipo de análisis multivariable, para evaluar la interacción entre múltiples variables simultáneamente y así comprender mejor la estructura y complejidad de los datos. Este tipo de análisis, puede incluir gráficos de dispersión en 3D, análisis de componentes principales, clustering o técnicas de visualización avanzadas. Sin embargo, considerando el objetivo, alcance y tipo de datos, este análisis se excluirá.
+
+- Visualización de datos: En forma concurrente a los análisis previos, se utilizarán diversas técnicas y herramientas visuales para representar los datos de manera efectiva y comunicar los hallazgos. Esto puede incluir gráficos, diagramas, mapas, gráficos de caja (boxplots), entre otros.
+
+Insights e hipótesis: A medida que se exploran los datos, se pueden generar y documentar hipótesis e insights sobre relaciones, patrones o tendencias que puedan existir entre los datos. Estas hipótesis pueden ser posteriormente validadas o refutadas en etapas posteriores del análisis, a través de métodos matemáticos o análisis especializados.
+
+Notas: 
+
+- Con el propósito de agilizar algunos análisis, se utilizará una función que recopila varias operaciones que se ejecutan, habitualmente, en forma individual, por ejemplo, el comando "info", toda vez que es una gran cantidad  de tablas y la interpretación se hará sobre el reporte.
+
+- No todas las transformaciones se realizarán como procesos dentro del notebook, considerando que, varios archivos, tienen entre 840 y 40 registros, y pocas variables (columnas), resultando más eficiente, en estos casos, usar Excel para copiar, y crear algunas columnas calculadas.
+
+- También se han omitido las columnas creadas en PowerBI, que surgieron como parte de la adaptación de las fuentes de datos a la organización del dashboard.
+
+### 9. Summarization
+
+#### 9.1 `<u>`Conclusion `</u>`
 
 - As per all the obsevations, we can conclude that Maharashtra have mot users of INSAID_Telecom comparatively other states.
 - There are 22 states where no of users are less than 2000.
