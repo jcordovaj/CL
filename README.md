@@ -1,4 +1,4 @@
-# <font color= grey, size=20> CASO:`Industria Telco en Argentina `</font></center>`
+# <font color= grey, size=20> CASO:`Industria Telco en Argentina `</font></center>
 
 ---
 
