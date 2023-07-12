@@ -27,35 +27,24 @@
 
 **8.** [**Análisis Exploratorio de Datos - EDA (Exploratory Data Analysis)**](#Section8)
 
-**9.** [**Resumen**](#Section9) `<br>`
+**9.** [**Resumen**](#Section9)
 
-- **9.1** [**Conclusiones**](#Section91) `<br>`
+- **9.1** [**Conclusiones**](#Section91)
 
-- **9.2** [**Información procesable**](#Section92) `<br>`
+- **9.2** [**Información procesable**](#Section92) 
 
 ---
 
-`<a name = Section1></a>`
-
-# `<font color=blue>`1. Introducción `</font>`
+### 1. Introducción
 
 - En las últimas dos décadas, el acceso a Internet ha redefinido las reglas de la competitividad y la forma en que la Sociedd se relaciona.
 - Existe una clara relación entre el aumento en las capacidades y la velocidad en el transporte de señal, que hoy explican porcentajes importantes del PIB de muchos países en el orbe.
 - Las economías han entendido que esta es una carrera en la que no se puede ceder espacio a los avances y, quedarse atrás, no es una opción.
-- Argentina, pese a tener uno de los niveles más altos de penetración de internet en la región, también presenta agudos contrastes el hacer una análisis más detallado de su realidad tecnológica y que son objeto de análisis estratégico para los actuales competidores, como para potenciales entrantes.
+- Argentina, pese a tener uno de los niveles más altos de penetración de internet en la región, también presenta agudos contrastes debido a varios factores que es necesario entender, tales como: geografía, densidad poblacional, infraestructura, riesgo social, político y otras externalidades, que requieren de un análisis de sus estadísticas con un enfoque estratégico, que sirva tanto, para los actuales competidores, como para potenciales entrantes.
+- En este Lab, se procederá a análizar información histórica de la industria TELCO en Argentina, bajo el supuesto de servir a un tercero como herramienta para la toma de decisiones e información a través de un tablero (dashboard).
+Este ***dashboard*** ayudará al lector a comprender las características del mercado acceso de internet fijo, en función de su localización, tipo de tecnología, ancho de banda, y tendencia de crecimiento del mercado, además de relacionar otros ***insights*** como políticas públicas y otras variables que determinan la demanda por el servicio en el largo plazo.
+- ***Disclaimer:*** Las recomendaciones de este análisis, aunque se basan en datos reales, deben ser considerados como **'un ejercicio académico'**, y es responsabilidad del usuario verificar y validar el contenido del mismo para otros fines.
 
----
-
-#### `<u>`Current Scenario `</u>`
-
-- In this consulting assignment, Insaidians are expected to `<b>`build a dashboard `</b>`.
-- This dashboard will help us to understand a user's demographic characteristics based on their `<b>`mobile usage, geolocation, and mobile device properties `</b>`
-- Doing so will help millions of developers and brand advertisers around the world pursue `<b>`data-driven marketing efforts.`</b>`
-- These efforts are relevant to their users and cater to their preferences.
-
----
-
-`<a name = Section2></a>`
 
 # `<font color=blue>`2. Problem Statement: `</font>`
 
