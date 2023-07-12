@@ -94,6 +94,13 @@ Notas metodológicas:
 
   -  4.2 Diccionario de datos
 
+
+### 5. Pre-Profiling
+
+Durante el "Pre-Profiling", nos auxiliremos de algunas librerías, para realizar un análisis inicial de los datos, antes de llevar a cabo un análisis más detallado, es probable que se detecten algunos problemas de consistencia o procesos de limpieza incompletos.
+
+Se utilizará la función "f_reportedf()" que facilitará hacer un primer análisis de caracerísticas básicas del df.
+
 ### 9. Resumen
 
 #### 9.1 Conclusiones
