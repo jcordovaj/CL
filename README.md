@@ -98,19 +98,20 @@ Notas metodológicas:
 
 #### 9.1 Conclusiones
 
-- As per all the obsevations, we can conclude that Maharashtra have mot users of INSAID_Telecom comparatively other states.
-- There are 22 states where no of users are less than 2000.
-- There are 3 brands- `<b>`Samsung, Xiaomi & Huawei `</b>` which are most prefered by users each have more than 15000 users across country.
-- Across brands Male users are more than Female users.
-- For both genders, users are from young age group.
-- There is consistent usage during daytime i.e. from 7:00 AM to 10:00 PM.
+        Podemos observar que el mercado esta marcado por fuertes convulsiones que incluyen intervencionismo estatal, externalidades como la pandemia que afectaron la estructura del mercado, también es visible la salida de operador, el incipiente desarrollo de los MVNO, que estaban prohibidos, y un crecimiento que distingue claramente a las grandes urbes, del desarrollo de las telecomunicaciones en zonas rurales o menos pobladas. 
+        * El mercado se divide en 50/50 entre provincias con indicadores positivos en crecimiento y también se observa un 'trade-off' natural entre tecnologías móviles, fibra y pares de cobre.
+        * El mercado de red fija, seguirá creciendo, pero de forma moderada, y se podría esperar, en el mediano plazo, un efecto de sustitución, similar al que experimento la relación entre la telefonía móvil y la fija, cuando el acceso a esa tecnología era reducido, hasta que se hizo asequible y masivo, en la medida que el acceso a Internet, a través de dispositivos móviles con gran ancho de banda, se masifique, los accesos a red fija, deberían experimentar un comportamiento parecido.
+        * Sobre los competidores: 
+        * Sobre el CAGR y ARPU
+        * Sobre Productos (bundle)
+        * Originalmente se han disponibilizado 17 archivos, que se pueden descargar en varios formatos desde la página de ENACOM
 
 ### 9.2 Información procesable
 
-- Need to maintai the services in Maharshtra to mainatin exisiting customers and to attarct new customers as well
-- In those 22 states where the users are less than 2000, INSAID_Telecom needs to focus to increase customers base by improving marketing strategies & services etc.
-- Other brands which are less prefered, need to provide best offers or discounts in respect of pricing & INSAID_Telecom branding etc.
-- INSIAD_Telecom Improve the services for Female users by providing some specials offers.
-- All phone brands needs to increase Female users by providing some specials offers and feminine centric speacil features or customisation etc.
-- Lenovo should include their marketing strategy with INSAID_Telecom to improvde users across country.
-- To increase usage during early morning hours (3:00 AM to 5:00 AM), INSAID to offer some freebies for users.
+        * Necesidad de mantener los servicios en Maharshtra para mantener a los clientes existentes y atraer nuevos clientes también.
+        * En esos 22 estados donde los usuarios son menos de 2000, INSAID_Telecom debe enfocarse en aumentar la base de clientes mejorando las estrategias y servicios de marketing, etc.
+        * Otras marcas que son menos preferidas deben ofrecer las mejores ofertas o descuentos con respecto a los precios y la marca INSAID_Telecom, etc.
+        * INSIAD_Telecom Mejorar los servicios para usuarias ofreciendo algunas ofertas especiales.
+        * Todas las marcas de teléfonos deben aumentar el número de usuarios femeninos al proporcionar algunas ofertas especiales y características o personalización especiales centradas en la mujer, etc.
+        * Lenovo debería incluir su estrategia de marketing con INSAID_Telecom para mejorar los usuarios en todo el país.
+        * Para aumentar el uso durante las primeras horas de la mañana (3:00 a. m. a 5:00 a. m.), INSAID ofrece algunos obsequios para los usuarios.
