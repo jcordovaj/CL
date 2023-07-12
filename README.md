@@ -6,9 +6,9 @@
 
 ---
 
-**1.** **Introducción**
+**1.** [**Introducción**](#Section1) 
 
-**2.** [**Resumen del problema**] 
+**2.** [**Resumen del problema**](#Section2)  
 
 **3.** [**Aproximación metodológica**](#Section3) 
 
@@ -105,20 +105,20 @@ Se utilizará la función "f_reportedf()" que facilitará hacer un primer análi
 
 #### 9.1 Conclusiones
 
-        Podemos observar que el mercado esta marcado por fuertes convulsiones que incluyen intervencionismo estatal, externalidades como la pandemia que afectaron la estructura del mercado, también es visible la salida de operador, el incipiente desarrollo de los MVNO, que estaban prohibidos, y un crecimiento que distingue claramente a las grandes urbes, del desarrollo de las telecomunicaciones en zonas rurales o menos pobladas. 
-        * El mercado se divide en 50/50 entre provincias con indicadores positivos en crecimiento y también se observa un 'trade-off' natural entre tecnologías móviles, fibra y pares de cobre.
-        * El mercado de red fija, seguirá creciendo, pero de forma moderada, y se podría esperar, en el mediano plazo, un efecto de sustitución, similar al que experimento la relación entre la telefonía móvil y la fija, cuando el acceso a esa tecnología era reducido, hasta que se hizo asequible y masivo, en la medida que el acceso a Internet, a través de dispositivos móviles con gran ancho de banda, se masifique, los accesos a red fija, deberían experimentar un comportamiento parecido.
-        * Sobre los competidores: 
-        * Sobre el CAGR y ARPU
-        * Sobre Productos (bundle)
-        * Originalmente se han disponibilizado 17 archivos, que se pueden descargar en varios formatos desde la página de ENACOM
+* Podemos observar que el mercado esta marcado por fuertes convulsiones que incluyen intervencionismo estatal, externalidades como la pandemia que afectaron la estructura del mercado, también es visible la salida de operador, el incipiente desarrollo de los MVNO, que estaban prohibidos, y un crecimiento que distingue claramente a las grandes urbes, del desarrollo de las telecomunicaciones en zonas rurales o menos pobladas. 
+* El mercado se divide en 50/50 entre provincias con indicadores positivos en crecimiento y también se observa un 'trade-off' natural entre tecnologías móviles, fibra y pares de cobre.
+* El mercado de red fija, seguirá creciendo, pero de forma moderada, y se podría esperar, en el mediano plazo, un efecto de sustitución, similar al que experimento la relación entre la telefonía móvil y la fija, cuando el acceso a esa tecnología era reducido, hasta que se hizo asequible y masivo, en la medida que el acceso a Internet, a través de dispositivos móviles con gran ancho de banda, se masifique, los accesos a red fija, deberían experimentar un comportamiento parecido.
+* Sobre los competidores: 
+* Sobre el CAGR y ARPU
+* Sobre Productos (bundle)
+* Originalmente se han disponibilizado 17 archivos, que se pueden descargar en varios formatos desde la página de ENACOM
 
 ### 9.2 Información procesable
 
-        * Necesidad de mantener los servicios en Maharshtra para mantener a los clientes existentes y atraer nuevos clientes también.
-        * En esos 22 estados donde los usuarios son menos de 2000, INSAID_Telecom debe enfocarse en aumentar la base de clientes mejorando las estrategias y servicios de marketing, etc.
-        * Otras marcas que son menos preferidas deben ofrecer las mejores ofertas o descuentos con respecto a los precios y la marca INSAID_Telecom, etc.
-        * INSIAD_Telecom Mejorar los servicios para usuarias ofreciendo algunas ofertas especiales.
-        * Todas las marcas de teléfonos deben aumentar el número de usuarios femeninos al proporcionar algunas ofertas especiales y características o personalización especiales centradas en la mujer, etc.
-        * Lenovo debería incluir su estrategia de marketing con INSAID_Telecom para mejorar los usuarios en todo el país.
-        * Para aumentar el uso durante las primeras horas de la mañana (3:00 a. m. a 5:00 a. m.), INSAID ofrece algunos obsequios para los usuarios.
+* Necesidad de mantener los servicios en Maharshtra para mantener a los clientes existentes y atraer nuevos clientes también.
+* En esos 22 estados donde los usuarios son menos de 2000, INSAID_Telecom debe enfocarse en aumentar la base de clientes mejorando las estrategias y servicios de marketing, etc.
+* Otras marcas que son menos preferidas deben ofrecer las mejores ofertas o descuentos con respecto a los precios y la marca INSAID_Telecom, etc.
+* INSIAD_Telecom Mejorar los servicios para usuarias ofreciendo algunas ofertas especiales.
+* Todas las marcas de teléfonos deben aumentar el número de usuarios femeninos al proporcionar algunas ofertas especiales y características o personalización especiales centradas en la mujer, etc.
+* Lenovo debería incluir su estrategia de marketing con INSAID_Telecom para mejorar los usuarios en todo el país.
+* Para aumentar el uso durante las primeras horas de la mañana (3:00 a. m. a 5:00 a. m.), INSAID ofrece algunos obsequios para los usuarios.
