@@ -6,9 +6,9 @@
 
 ---
 
-**1.** [**Introducción**](#Section1)
+**1.** **Introducción**
 
-**2.** [**Resumen del problema**](#Section2) 
+**2.** [**Resumen del problema**] 
 
 **3.** [**Aproximación metodológica**](#Section3) 
 
